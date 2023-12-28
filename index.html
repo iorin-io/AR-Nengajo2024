@@ -24,8 +24,7 @@
 			<a-entity camera></a-entity>
 
 			<a-marker type='pattern' url='marker/qr.patt'>
-				<a-entity gltf-model="#dragon" scale="0.2 0.2 0.2" animation-mixer></a-entity>
-				
+				<a-entity gltf-model="#dragon" scale="0.2 0.2 0.2" animation="property: rotation; to: 0 0 360; loop: true; dur: 5000" animation-mixer></a-entity>
 			</a-marker>
 
 		</a-scene>
